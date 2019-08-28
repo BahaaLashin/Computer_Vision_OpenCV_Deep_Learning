@@ -38,6 +38,9 @@ flip_image = cv2.flip(img,-1)
 
 img_write = cv2.imwrite('new_image.jpg',flip_image)
 
+if img_write:
+    print('Image has been saved')
+
 ### SHOW IMAGE ####
 
 display(flip_image)
