@@ -40,7 +40,7 @@ img_blur = cv2.blur(img,ksize=(20,20))
 
 img_Gu_Blur = cv2.GaussianBlur(img,(15,15),10)
 
-############# mediam blue ##############
+############# median blue ##############
 
 img_md_blur = cv2.medianBlur(img,5)
 
