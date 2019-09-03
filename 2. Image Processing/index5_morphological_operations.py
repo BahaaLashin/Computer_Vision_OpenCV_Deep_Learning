@@ -61,4 +61,4 @@ result_noise[result_noise==-255] =0
 morph_clos = cv2.morphologyEx(result_noise,cv2.MORPH_CLOSE,kernal)
 morph_clos = cv2.morphologyEx(morph_clos,cv2.MORPH_GRADIENT,kernal)
 
-display(morph_clos)
+display(img_morph)
